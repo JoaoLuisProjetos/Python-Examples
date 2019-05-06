@@ -1,8 +1,11 @@
-# Important: pytesseract must be installed in your wheel (PIP),
-# as well be installed into your file programs from OS
-# 
-# https://github.com/tesseract-ocr/tesseract/wiki
-#
+"""
+Important: pytesseract must be installed in your wheel (PIP),
+     as well be installed into your file programs from OS.
+     
+Objective: Text-to-Image recognition
+
+Tesseract Home: https://github.com/tesseract-ocr/tesseract/wiki
+"""
 
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'tesseract_path/tesseract.exe'
